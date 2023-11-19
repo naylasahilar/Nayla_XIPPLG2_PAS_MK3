@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- judul website -->
+    <title>My:To Do List</title>
+    <!-- link penyambung css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon di judul website -->
+    <link rel="shortcut icon" href="assets/list_3373819.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--  konten : to-do-list -->
+    <div class="container">
+        <!-- pembungkus semua konten to-do-list -->
+        <div class="todo-app">
+            <!-- judul -->
+            <h2>To-Do List <img src="assets/list_3373819.png" ></h2>
+            <!-- input teks -->
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <!-- list -->
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
